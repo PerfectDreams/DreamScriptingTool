@@ -1,0 +1,4 @@
+name: DreamScriptingTool
+main: net.perfectdreams.dreamscriptingtool.DreamScriptingTool
+version: 1.0.0
+softdepend: ["DreamCore"]
