@@ -15,38 +15,34 @@
         <kotlin.compiler.incremental>true</kotlin.compiler.incremental>
     </properties>
 
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+        <repository>
+            <id>perfectdreams-repo</id>
+            <url>https://raw.githubusercontent.com/PerfectDreams/DreamMavenRepository/master/</url>
+        </repository>
+    </repositories>
+	
     <dependencies>
         <dependency>
-            <groupId>com.spigot</groupId>
-            <artifactId>spigot</artifactId>
-            <version>1.12.1</version>
-            <scope>system</scope>
-            <systemPath>C:\Users\Whistler\Documents\Minecraft Servers\PocketDreams v2\PocketDreams Survival\cache\patched_1.12.2.jar</systemPath>
+            <groupId>com.destroystokyo.paper</groupId>
+            <artifactId>paper</artifactId>
+            <version>1.12.2-R0.1-SNAPSHOT</version>
+            <scope>provided</scope>
         </dependency>
-        <!-- <dependency>
+        <dependency>
             <groupId>org.jetbrains.kotlin</groupId>
             <artifactId>kotlin-stdlib-jdk8</artifactId>
             <version>${kotlin.version}</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.jetbrains.kotlinx</groupId>
-            <artifactId>kotlinx-coroutines-core</artifactId>
-            <version>0.22.5</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-compiler</artifactId>
-            <version>${kotlin.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>org.jetbrains.kotlin</groupId>
-            <artifactId>kotlin-script-util</artifactId>
-            <version>${kotlin.version}</version>
-        </dependency> -->
-        <dependency>
-            <groupId>net.perfectdreams.dreamcore</groupId>
-            <artifactId>DreamCore</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <groupId>com.github.PerfectDreams</groupId>
+                 <artifactId>DreamCore</artifactId>
+            <version>73989caac8</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
